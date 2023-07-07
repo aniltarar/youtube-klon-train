@@ -7,7 +7,11 @@
 }
 body {
     background-color: #0f0f0f;
-    height: 4000px;
+    height: 100vh;
+}
+.content {
+    display: flex;
+    height: calc(100% - 61px);
 }
 /* ****************************HEADER CSS START**************************** */
 .header i {
@@ -127,7 +131,7 @@ header {
 .sidebar {
     display: flex;
     border-right: 1px gray solid;
-    height: 100vh;
+    height: 100%;
     width: 100px;
     justify-content: center;
     align-items: flex-start;
@@ -159,3 +163,18 @@ header {
 }
 
 /* ****************************SIDEBAR CSS END**************************** */
+/* ******************VIDEOS GRID CSS START ********************** */
+
+ul.video-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: min-content;
+    list-style: none;
+    padding: 2rem;
+    overflow-y: auto;
+    column-gap: 1rem;
+    row-gap: 1rem;
+}
+.video-image>img {
+    width: 100%;
+}
