@@ -1,0 +1,122 @@
+/* -------------GENEL CSS-------------- */
+* {
+    color: white;
+    margin: 0;
+    padding: 0;
+    
+}
+body {
+    background-color: #0f0f0f;
+}
+/* ****************************HEADER CSS START**************************** */
+.header i {
+    font-size: 2rem;
+}
+header {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px gainsboro solid;
+    align-items: center;
+    padding: 0 20px;
+}
+/* -------------------HEADER-LEFT-CSS-START------------------------ */
+.header-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex:1
+    
+}
+.header-left i {
+    font-size: 1.3rem;
+    cursor: pointer;
+    padding: .5rem;
+    border-radius: 1rem;
+}
+.header-left i:hover {
+
+    background-color: rgba(221, 216, 216, 0.147);
+}
+.header-left h3{
+    color: red;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+.header-left img {
+    width: 3rem;
+    margin-left: 2rem;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+/* -------------------HEADER-LEFT-CSS-END------------------------ */
+
+/* -------------------HEADER-CENTER-CSS-START------------------------ */
+.header-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex:3
+    
+}
+.header-search {
+    border: 1px #f1f1f1 solid;
+    padding: .6rem;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 500px;
+    
+}
+.header-search input {
+    background-color: #0f0f0f;
+    outline: none;
+    border: none;
+}
+.header-search .fa-magnifying-glass {
+    cursor: pointer;
+}
+
+.header-center .fa-microphone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(221, 216, 216, 0.147);
+    padding: .5rem;
+    border-radius: 1rem;
+    font-size: 1.3rem;
+    margin-left: .5rem;
+    cursor: pointer;
+}
+.header-center .fa-microphone:hover {
+    background-color: rgba(221, 216, 216, 0.559);
+}
+/* -------------------HEADER-CENTER-CSS-END------------------------ */
+/* -------------------HEADER-RIGHT-CSS-START------------------------ */
+.header-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 2rem;
+    flex:1
+}
+.header-right i {
+    font-size: 1.5rem;
+    cursor: pointer;
+    
+    padding: .5rem;
+    border-radius: 2rem;
+}
+.header-right i:hover {
+    background-color: rgba(221, 216, 216, 0.559);
+}
+.header-right img {
+    width: 2rem;
+    border: 1px white solid;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+/* -------------------HEADER-RIGHT-CSS-END------------------------ */
+/* ****************************HEADER CSS END**************************** */
