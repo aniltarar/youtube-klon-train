@@ -7,6 +7,7 @@
 }
 body {
     background-color: #0f0f0f;
+    height: 4000px;
 }
 /* ****************************HEADER CSS START**************************** */
 .header i {
@@ -72,6 +73,7 @@ header {
     
 }
 .header-search input {
+    width: 100%;
     background-color: #0f0f0f;
     outline: none;
     border: none;
@@ -121,3 +123,39 @@ header {
 }
 /* -------------------HEADER-RIGHT-CSS-END------------------------ */
 /* ****************************HEADER CSS END**************************** */
+/* ****************************SIDEBAR CSS START**************************** */
+.sidebar {
+    display: flex;
+    border-right: 1px gray solid;
+    height: 100vh;
+    width: 100px;
+    justify-content: center;
+    align-items: flex-start;
+}
+.sidebar i {
+    font-size: 2rem;
+    line-height: 3rem;
+}
+
+.sidebar-items span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: .5rem;
+    
+}
+.sidebar-items a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    margin-top: 1rem;
+    border-radius: .3rem;
+    padding: .3rem
+}
+.sidebar-items a:hover {
+     background-color: darkgrey;
+     transition: .5s;
+}
+
+/* ****************************SIDEBAR CSS END**************************** */
